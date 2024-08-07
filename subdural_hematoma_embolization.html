@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <title>Document</title>
+  </head>
+  <body class="subdural_main">
+    <!-- Navbar -->
+    <header class="navbar">
+      <div class="top_nav">
+        <div class="container">
+          <a href="index.html" class="logo">
+            <img src="assets/img/svg/logo.svg" alt="" />
+          </a>
+          <p class="hide_mobile_text">
+            Minimally Invasive Treatment With <br />
+            Little or No Down time
+          </p>
+          <div class="btn_area">
+            <div class="phone_num">
+              <iconify-icon
+                icon="material-symbols:phone-in-talk-rounded"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <p>833-787-6539</p>
+            </div>
+            <a href="#" class="btn">Book Appointment</a>
+          </div>
+          <button class="toggle_icon" onclick="toggleMainMenu()">
+            <iconify-icon
+              class="icons"
+              icon="mingcute:menu-fill"
+              width="30"
+              height="30"
+            ></iconify-icon>
+          </button>
+        </div>
+      </div>
+      <div class="main_menu_area" id="main_menu_area">
+        <div class="container">
+          <ul class="menu_area">
+            <li class="nav_list">
+              <a href="index.html" class="nav_link">Home</a>
+            </li>
+            <li class="nav_list">
+              <a href="about.html" class="nav_link">About Us</a>
+            </li>
+            <li class="nav_list">
+              <a href="treatment_services.html" class="nav_link"
+                >Treatment Services</a
+              >
+            </li>
+            <li class="nav_list">
+              <a href="diagnostic_testing.html" class="nav_link"
+                >Diagnostic Testing</a
+              >
+            </li>
+            <li class="nav_list">
+              <a href="contact_us.html" class="nav_link">Contact Us</a>
+            </li>
+            <li class="nav_list">
+              <a href="media.html" class="nav_link">Media</a>
+            </li>
+            <li class="nav_list">
+              <a href="migraines.html" class="nav_link">Migraines</a>
+            </li>
+            <li class="nav_list sub_menu_list" onclick="toggleMenu()">
+              More Pages
+              <iconify-icon
+                class="icons"
+                icon="icon-park-outline:down"
+              ></iconify-icon>
+              <ul class="sub_menu" id="sub_menu">
+                <li class="nav_list">
+                  <a href="stroke.html" class="nav_link">Stroke</a>
+                </li>
+                <li class="nav_list">
+                  <a href="subdural_hematoma_embolization.html" class="nav_link"
+                    >Subdural Hematoma Embolization</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- ++++++++++ Banner ++++++++++++ -->
+    <section class="subdural_banner">
+      <div class="container">
+        <h1>Subdural Hematoma Embolization</h1>
+        <p>
+          Resolves Chronic Subdural Hematomas without the need for open brain
+          surgery.
+        </p>
+        <a href="#" class="btn">Book Appointment</a>
+      </div>
+    </section>
+
+    <!-- What is Middle Meningeal Artery Embolization? -->
+    <section class="subdural_sect_1">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2">
+          <div class="subdural_left_1">
+            <h3>What is Middle Meningeal Artery Embolization?</h3>
+            <p>
+              It is a treatment for chronic subdural hematoma, or persistent
+              bleeding on the surface of the brain. This nonsurgical technique s
+              the blood that is responsible for the bleeding under the dura
+              mater on top of the brain and generally prevents the problem from
+              coming back. Meningeal Artery embolization is now considered the
+              standard of care as an effective option for management of chronic
+              or acute on chronic subdural hematoma. Embolization offers a low
+              complication and recurrence hemorrhage rates compared went
+              compared open brain surgery.
+            </p>
+          </div>
+          <div class="subdural_right_1">
+            <div class="">
+              <img
+                src="./assets/img/subdural_page/section_image/image1.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- What is a Chronic Subdural? -->
+    <section class="subdural_sect_1">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2">
+          <div class="subdural_right_2">
+            <div class="">
+              <img
+                src="./assets/img/subdural_page/section_image/image2.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="subdural_left_2">
+            <h3>What is a Chronic Subdural?</h3>
+            <p>
+              It is a treatment for chronic subdural hematoma, or persistent
+              bleeding on the surface of the brain. This nonsurgical technique s
+              the blood that is responsible for the bleeding under the dura
+              mater on top of the brain and generally prevents the problem from
+              coming back. Meningeal Artery embolization is now considered the
+              standard of care as an effective option for management of chronic
+              or acute on chronic subdural hematoma. Embolization offers a low
+              complication and recurrence hemorrhage rates compared went
+              compared open brain surgery.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- What causes a subdural hematoma? -->
+    <section class="subdural_sect_1">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2">
+          <div class="subdural_left_3">
+            <h3>What causes a subdural hematoma?</h3>
+            <p>
+              Although they may be due to trauma, they can also occur
+              spontaneously or in association with the use of blood-thinners,
+              abnormal blood vessels on top of the brain, and with advancing
+              age. Typically, invasive neurosurgical been used to eliminate
+              these hemorrhages. However, the blood collection can re-accumulate
+              in over a quarter of neurosurgical patients. In patients who do
+              not require in-hospital care, chronic subdural hematomas can be
+              obliterated by injecting tiny particles (embolization) into the
+              middle meningeal artery near the skull base under local anesthesia
+              and moderate intravenous sedation. This outpatient procedure is
+              usually quick and painless. Over time roughly two months there
+              usually is complete or near complete resolution of the subdural
+              hemorrhage.
+            </p>
+          </div>
+          <div class="subdural_right_3">
+            <div class="">
+              <img
+                src="./assets/img/subdural_page/section_image/image3.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- What are the Symptoms  -->
+    <section class="what_symptoms">
+      <div class="container">
+        <div class="">
+          <h3 class="">What are the Symptoms</h3>
+          <p class="pb-3">
+            Subdural Hematomas can be very slow growing, there may be no
+            noticeable symptoms for more than 2 weeks to months after the
+            bleeding starts. The symptoms and their severity will vary depending
+            on your age, underlying medical conditions, how large the bleed is,
+            and what type of subdural hematoma you have
+          </p>
+        </div>
+        <div class="">
+          <h4 class="">
+            Worsening symptoms of subdural hematomas can include:
+          </h4>
+          <div class="clink_main_con">
+            <div class="clink_sub_main_con">
+              <div class="click_div">
+                <img
+                  class="check_icon_size"
+                  src="./assets/img/subdural_page/subdural_icons/check 1.svg"
+                  alt=""
+                />
+                <span class="click_text">Headache</span>
+              </div>
+              <div class="click_div">
+                <img
+                  class="check_icon_size"
+                  src="./assets/img/subdural_page/subdural_icons/check 1.svg"
+                  alt=""
+                />
+                <span class="click_text">Dizziness</span>
+              </div>
+              <div class="click_div">
+                <img
+                  class="check_icon_size"
+                  src="./assets/img/subdural_page/subdural_icons/check 1.svg"
+                  alt=""
+                />
+                <span class="click_text">Weakness</span>
+              </div>
+              <div class="click_div">
+                <img
+                  class="check_icon_size"
+                  src="./assets/img/subdural_page/subdural_icons/check 1.svg"
+                  alt=""
+                />
+                <span class="click_text">Unequal pupil size</span>
+              </div>
+              <div class="click_div">
+                <img
+                  class="check_icon_size"
+                  src="./assets/img/subdural_page/subdural_icons/check 1.svg"
+                  alt=""
+                />
+                <span class="click_text">Slurred speech</span>
+              </div>
+            </div>
+            <div class="clink_sub_main_con">
+              <div class="click_div">
+                <img
+                  class="check_icon_size"
+                  src="./assets/img/subdural_page/subdural_icons/check 1.svg"
+                  alt=""
+                />
+                <span class="click_text">Confusion</span>
+              </div>
+              <div class="click_div">
+                <img
+                  class="check_icon_size"
+                  src="./assets/img/subdural_page/subdural_icons/check 1.svg"
+                  alt=""
+                />
+                <span class="click_text">Nausea and vomiting</span>
+              </div>
+              <div class="click_div">
+                <img
+                  class="check_icon_size"
+                  src="./assets/img/subdural_page/subdural_icons/check 1.svg"
+                  alt=""
+                />
+                <span class="click_text">Apathy</span>
+              </div>
+              <div class="click_div">
+                <img
+                  class="check_icon_size"
+                  src="./assets/img/subdural_page/subdural_icons/check 1.svg"
+                  alt=""
+                />
+                <span class="click_text">Memory loss</span>
+              </div>
+              <div class="click_div">
+                <img
+                  class="check_icon_size"
+                  src="./assets/img/subdural_page/subdural_icons/check 1.svg"
+                  alt=""
+                />
+                <span class="click_text">Seizures</span>
+              </div>
+            </div>
+            <div class="clink_sub_main_con">
+              <div class="click_div">
+                <img
+                  class="check_icon_size"
+                  src="./assets/img/subdural_page/subdural_icons/check 1.svg"
+                  alt=""
+                />
+                <span class="click_text">Change in behavior</span>
+              </div>
+              <div class="click_div">
+                <img
+                  class="check_icon_size"
+                  src="./assets/img/subdural_page/subdural_icons/check 1.svg"
+                  alt=""
+                />
+                <span class="click_text">Enlarged head in babies</span>
+              </div>
+              <div class="click_div">
+                <img
+                  class="check_icon_size"
+                  src="./assets/img/subdural_page/subdural_icons/check 1.svg"
+                  alt=""
+                />
+                <span class="click_text">Vision changes</span>
+              </div>
+              <div class="click_div">
+                <div class="">
+                  <img
+                    class="check_icon_size"
+                    src="./assets/img/subdural_page/subdural_icons/check 1.svg"
+                    alt=""
+                  />
+                  <span class="click_text"
+                    >Lethargy or excessive drowsiness</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mt-5">
+            <div class="click_div">
+              <img
+                class="check_icon_size"
+                src="./assets/img/subdural_page/subdural_icons/check 1.svg"
+                alt=""
+              />
+
+              <span class="click_text"
+                >Loss of movement on the opposite side of your body as the head
+                injury</span
+              >
+            </div>
+          </div>
+        </div>
+        <h4 class="mt-5">
+          The general symptoms of a subdural hematoma include:
+        </h4>
+        <div class="">
+          <div class="gssh">
+            <div class="">
+              <div class="click_div_1">
+                <img
+                  class="check_icon_size"
+                  src="./assets/img/subdural_page/subdural_icons/check 1.svg"
+                  alt=""
+                />
+                <span class="click_text">Paralysis</span>
+              </div>
+              <div class="click_div_1">
+                <img
+                  class="check_icon_size"
+                  src="./assets/img/subdural_page/subdural_icons/check 1.svg"
+                  alt=""
+                />
+                <span class="click_text">Seizures</span>
+              </div>
+              <div class="click_div_1">
+                <img
+                  class="check_icon_size"
+                  src="./assets/img/subdural_page/subdural_icons/check 1.svg"
+                  alt=""
+                />
+                <span class="click_text">Coma</span>
+              </div>
+            </div>
+            <div class="">
+              <div class="click_div_1">
+                <img
+                  class="check_icon_size"
+                  src="./assets/img/subdural_page/subdural_icons/check 1.svg"
+                  alt=""
+                />
+                <span class="click_text">Breathing problems</span>
+              </div>
+              <div class="click_div_1">
+                <img
+                  class="check_icon_size"
+                  src="./assets/img/subdural_page/subdural_icons/check 1.svg"
+                  alt=""
+                />
+                <span class="click_text">Loss of consciousness</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- How do we diagnose acute subdural hematoma? -->
+    <section class="container">
+      <h3 class="dsh">How do we diagnose acute br subdural hematoma?</h3>
+      <p class="dsh">
+        SDHs are best diagnosed by computed tomography (CT) scan of the head.
+        They appear as a dense, crescent-shaped mass over a portion of the
+        brain’s surface.
+      </p>
+      <img src="./assets/img/subdural_page/section_image/image4.png" alt="" />
+
+      <h4 class="last_h4">How do we treat Subdural Hematoma</h4>
+      <p class="">
+        Medical therapies for subdural hematoma generally have not proven to be
+        very effective, and the surgical drainage through a burr hole or small
+        craniotomy usually has a high bleeding and complication rate. Middle
+        meningeal artery embolization considered the standard of care, is a
+        minimally invasive procedure that works by eliminating the leaking blood
+        vessels that are responsible for the subdural to that it can properly
+        resolve without the need for open surgery. It is over 90 percent
+        effective and can significantly reduce recurrence of the subdural.
+      </p>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="section_title">
+          <h2>Office Address:</h2>
+        </div>
+        <div class="row office_card_group">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <iconify-icon
+                class="icons"
+                icon="mdi:location"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <div class="address_area">
+                <p class="title">Pasadena</p>
+                <p class="address">
+                  675 S Arroyo Pkwy Suite 400 Pasadena, Ca, 91106
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <iconify-icon
+                class="icons"
+                icon="mdi:location"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <div class="address_area">
+                <p class="title">Long Beach </p>
+                <p class="address">
+                  1050 Linden Ave 2nd Floor, ​Long Beach, CA, 90813
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <iconify-icon
+                class="icons"
+                icon="mdi:location"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <div class="address_area">
+                <p class="title">Orange County </p>
+                <p class="address">
+                  1140 W La Veta Ave Ste 730 Orange, CA 92868
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="my-5" />
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="brand_area">
+              <img src="./assets/img/svg//footer_logo.svg" alt="" />
+              <div class="btn_area">
+                <button class="btn_s">Log Into Patient Portal</button>
+                <button class="btn">Insurances We Accept</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="footer_item">
+              <h5>Contact Us</h5>
+              <ul class="link_area">
+                <li><a href="#">Tel: 833-787-6539</a></li>
+                <li><a href="#">Fax: 888-571-6437</a></li>
+                <li><a href="#">Email: neurovascularcenters@gmail.com</a></li>
+                <div class="social_area">
+                  <p class="s_titel">Social Media:</p>
+                  <a href="#" class="social_icons">
+                    <iconify-icon
+                      class="icons"
+                      icon="ic:twotone-facebook"
+                      width="30"
+                      height="30"
+                    ></iconify-icon>
+                  </a>
+                  <a href="#" class="social_icons">
+                    <iconify-icon
+                      class="icons"
+                      icon="mdi:instagram"
+                      width="30"
+                      height="30"
+                    ></iconify-icon>
+                  </a>
+                </div>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="footer_item">
+              <h5>Menu</h5>
+              <div class="d-flex justify-content-between flex-wrap gap-3">
+                <ul class="link_area">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Media</a></li>
+                  <li><a href="#">Migraines</a></li>
+                </ul>
+                <ul class="link_area">
+                  <li><a href="#">Treatment Services</a></li>
+                  <li><a href="#">Diagnostic Testing</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- JavaScript -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/jquery-modal-video.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@2.0.0/dist/iconify-icon.min.js"></script>
+    <script src="assets/js/slider.js"></script>
+    <script src="assets/js/style.js"></script>
+  </body>
+</html>
